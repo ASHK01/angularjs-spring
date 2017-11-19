@@ -102,7 +102,7 @@
                               <th>Location</th>
                               <th>Status</th>
                               <th>Type</th>
-                              <th>Price</th>
+                              <!-- <th>Price</th> -->
                               <th width="25%"></th>
                           </tr>
                       </thead>
@@ -113,7 +113,7 @@
                               <td><span ng-bind="p.location"></span></td>
                               <td><span ng-bind="p.status"></span></td>
                               <td><span ng-bind="p.type"></span></td>
-                              <td><span ng-bind="p.price"></span></td>
+                              <!-- <td><span ng-bind="p.price"></span></td> -->
                               <td>
                               	<button type="button" ng-click="ctrl.edit(p.id)" class="btn btn-success custom-width">Edit</button>  <button type="button" ng-click="ctrl.remove(p.id)" class="btn btn-danger custom-width">Remove</button>
                               </td>
